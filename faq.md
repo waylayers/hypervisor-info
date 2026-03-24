@@ -1,6 +1,6 @@
 # Frequently asked questions
 
-** Q: Where do I get hypervisor cracks?**
+**Q: Where do I get hypervisor cracks?**
 A: Releases are posted to game topics on this forum by the creators.
 
 **Q: Can I use files from a hypervisor crack release for a different game?**
