@@ -50,7 +50,7 @@ Advanced users may want to consider running hypervisor cracks in a virtual machi
   - must be reviewed and approved by a staff member.
 - **Hypervisor drivers**:
   - Must include source code (and build scripts or project files that are necessary for compilation) or link to code repository.
-- Closed-source binaries:
+- **Closed-source binaries**:
   - Must not require to be run as administrator.
 
 

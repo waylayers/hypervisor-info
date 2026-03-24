@@ -59,7 +59,7 @@ So even "legitimate" software for hosting virtual machines that does not aim to 
 
 ## I want to play that new Denuvo-protected game, is it safe to disable all this and use a hypervisor crack?
 
-> [!INFO]
+> [!NOTE]
 > There is no simple answer. This is just my personal take as someone with 10 years of experience in  security-focused system administration and only a casual interest in gaming.
 
 It's true that the most common threats are info stealer malware from fake download buttons, ransomware that encrypts your files or joining a DDoS botnet. I suppose such malware is usually not interested in higher privilege escalation or hardware sabotage, if it can already access what it needs. It's also true that the best protection against such malware is a good ad blocker, staying on trusted sites and user education.
