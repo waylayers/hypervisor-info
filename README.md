@@ -1,6 +1,6 @@
 # Hypervisor Info
 
-Copied directly from cs.rin.ru due to concerns of DMCA when shared in places like Discord.
+Copied directly from cs.rin.ru due to concerns of DMCA when shared in places like Discord. Removes hyperlinks to cs.rin.ru
 
 - [Best Practices & Release Requirements](./best-practices.md)
 - [Hypervisor Cracks and Windows Security - An Introduction](./introduction.md)
