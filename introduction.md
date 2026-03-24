@@ -72,3 +72,16 @@ Whether that game is worth the risks is something you will ultimately have to de
 
 > [!WARNING]
 > However, if you do not understand the general concepts described in this guide or scrolled down here without reading it, you are most certainly not equipped to make this decision.
+
+# A note on Meltdown software mitigation and hypervisor drivers
+
+As of March 2026, the hypervisor drivers released by the team from the Mkdev discord (DenuvOwO, hvteam) conflict with [KVA Shadow](https://www.microsoft.com/en-us/msrc/blog/2018/03/kva-shadow-mitigating-meltdown-on-windows), Microsoft's software mitigation for Meltdown, the speculative execution side channels vulnerabilty found mostly in older Intel CPUs (before 2019).
+KVA Shadow is incompatible with hvteam's syscall hook implementation and needs to be disabled, I quote:
+> **hvteam wrote:**
+> Our LSTAR hook will not be mapped into the memory space in user mode page tables with the mitigation active, which will cause a page fault upon execution of a SYSCALL instruction resulting in a UNEXPECTED_KERNEL_MODE_TRAP bug check  (BSOD). To prevent this, our driver will not load if this mitigation is active and will return STATUS_HV_FEATURE_UNAVAILABLE.
+
+The script included with the releases handles this.
+
+---
+
+Written by ResourcectoR in cs.rin.ru

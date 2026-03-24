@@ -17,7 +17,7 @@ Before disabling security features and running the crack:
 - **The power of open source**: Even better than checksums - compile the included source code yourself, if you know how to. Compare the source code with the original projects on Github that the crack hypervisors are based on to review the differences.
 - **Reviewed and approved methods only**: For disabling virtualized security and the Windows hypervisor, use open source scripts from approved releases posted to this forum.
 - **Networking**: Disconnect the PC from all networks, preferably outside of the OS, e.g. by unplugging the cable.
-- **Minimize exposure**: __**<span color="red">IMPORTANT</span>**__. Revert the changes to Windows security and reboot your PC after you are done playing the game.
+- **Minimize exposure**: __**IMPORTANT**__. Revert the changes to Windows security and reboot your PC after you are done playing the game.
 - **Stay skeptical**: Prefer crack releases that do not instruct you to run closed source binaries with admin privileges.
 
 Advanced users may want to consider running hypervisor cracks in a virtual machine (that supports nested virtualization) with GPU passthrough, such as KVM on Linux or Hyper-V, or a dedicated computer without personal data on it. This has a performance penalty though.
@@ -61,6 +61,6 @@ Advanced users may want to consider running hypervisor cracks in a virtual machi
 
 We may also allow open source solutions for the runtime patching method for DSE in releases, if stable methods emerge. We encourage open development and discussion on this in our Developer section.
 
-|
+---
 
 Written by ResourcectoR in cs.rin.ru
